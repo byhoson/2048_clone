@@ -1,0 +1,94 @@
+#container {
+  margin: 0 auto;
+  width: 450px;
+  height: 450px;
+  background-color: #bbada0;
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  background-color: rgba(238, 228, 218, 0.35);
+  float: left;
+  text-align: center;
+  font-size: 50px;
+  color: blue;
+  line-height: 100px;
+  border-radius: 5px;
+}
+
+.cell-2,
+.cell-4 {
+  color: #776e65;
+}
+
+.cell-8,
+.cell-16,
+.cell-32,
+.cell-64,
+.cell-128,
+.cell-256,
+.cell-512,
+.cell-1024,
+.cell-2048 {
+  color: #f9f6f2;
+}
+
+.cell-2 {
+  background-color: #eee4da !important;
+}
+
+.cell-4 {
+  background-color: #ede0c8 !important;
+}
+
+.cell-8 {
+  background-color: #f2b179 !important;
+}
+
+.cell-16 {
+  background-color: #f59563 !important;
+}
+
+.cell-32 {
+  background-color: #f67c5f !important;
+}
+
+.cell-64 {
+  background-color: #f65e3b !important;
+}
+
+.cell-128 {
+  background-color: #edcf72 !important;
+  box-shadow: 0px 0px 30px 10px rgba(243, 215, 116, 0.24),
+    0px 0px 0px 1px rgba(255, 255, 255, 0.14) inset;
+}
+
+.cell-256 {
+  background-color: #edcc61 !important;
+  box-shadow: 0px 0px 30px 10px rgba(243, 215, 116, 0.318),
+    0px 0px 0px 1px rgba(255, 255, 255, 0.192) inset;
+}
+
+.cell-512 {
+  background-color: #edc850 !important;
+  box-shadow: 0px 0px 30px 10px rgba(243, 215, 116, 0.396),
+    0px 0px 0px 1px rgba(255, 255, 255, 0.24) inset;
+}
+
+.cell-1024 {
+  background-color: #edc53f !important;
+  box-shadow: 0px 0px 30px 10px rgba(243, 215, 116, 0.475),
+    0px 0px 0px 1px rgba(255, 255, 255, 0.286) inset;
+  font-size: 1.25rem;
+}
+
+.cell-2048 {
+  background-color: #edc22e !important;
+  box-shadow: 0px 0px 30px 10px rgba(243, 215, 116, 0.557),
+    0px 0px 0px 1px rgba(255, 255, 255, 0.333) inset;
+}
